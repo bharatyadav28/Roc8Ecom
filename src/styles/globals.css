@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply box-border overflow-x-hidden;
+}
+
+.nav-link a {
+  @apply transition hover:text-slate-500;
+}
+
+.inputs {
+  @apply rounded  border  px-3 py-2 text-slate-700 outline-none;
+}
+
+.input-error {
+  @apply ml-1 text-sm font-medium text-red-500;
+}
+
+h5 {
+  @apply font-bold;
+}
+
+.otp div input {
+  width: 3rem;
+}
